@@ -216,8 +216,9 @@ Some planned enhancements include:
 
 ## Screenshots
 
-**Login Window**
-Add screenshot here.
+**[Login Window]**
+
+![Login Screen](https://github.com/Divya-Jyoti-Dev/Library-Management-System-GUI-/blob/d4dabac7d4612be4e25ca4dd80995fa0bed745b7/Screenshot%202026-06-05%20120417.png)
 
 **Book Catalog**
 Add screenshot here.
