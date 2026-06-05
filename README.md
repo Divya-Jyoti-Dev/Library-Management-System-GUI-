@@ -119,32 +119,27 @@ Return books from your account panel. If overdue, the fine is calculated automat
 ## Project Structure
 
 ```
-LMS_fixed/
-│
-├── LibraryManagementSystem.java
-├── MainFrame.java
-├── AuthFrame.java
-│
-├── Library.java
-├── Book.java
-├── User.java
-├── LibraryConfig.java
-│
-├── DashboardPanel.java
-├── MyAccountPanel.java
-├── MessagesPanel.java
-├── AdminRemindersPanel.java
-├── ReportsPanel.java
-├── SettingsPanel.java
-│
-├── BookDialog.java
-├── BookTableModel.java
-├── ReminderHelper.java
-├── Message.java
-├── TransactionToast.java
-├── UITheme.java
-│
-└── books.csv
+Library Management System
+├── LibraryManagementSystem.java   # Entry point — loads data, launches UI
+├── Library.java                   # Core library logic (add, issue, return, search, reserve)
+├── Book.java                      # Book entity with copy tracking and reservation queue
+├── User.java                      # User entity with issued books, fines, inbox, history
+├── LibraryConfig.java             # Global config (loan days, fine rate, borrow limit)
+├── AuthFrame.java                 # Login / registration / first-run admin setup screen
+├── MainFrame.java                 # Main application window with navigation tabs
+├── DashboardPanel.java            # Overview stats for the logged-in user
+├── BookTableModel.java            # Table model for the book catalog view
+├── BookDialog.java                # Add / edit book dialog
+├── MyAccountPanel.java            # Member's borrowed books, history, and fines
+├── MessagesPanel.java             # In-app inbox for members
+├── AdminRemindersPanel.java       # Admin panel: send overdue/manual reminders
+├── ReportsPanel.java              # Admin panel: library statistics
+├── SettingsPanel.java             # Admin panel: configure loan period, fine, limits
+├── ReminderHelper.java            # Logic for scheduling and sending reminders
+├── Message.java                   # Message entity for the inbox system
+├── TransactionToast.java          # Toast notification component
+├── UITheme.java                   # Shared colors, fonts, and UI component builders
+└── books.csv                      # Seed data — 30 books loaded on first launch
 ```
 
 ---
