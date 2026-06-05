@@ -62,8 +62,8 @@ Before running the project, make sure the following software is installed:
 **Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Divya-Jyoti-Dev/Library-Management-System-GUI-.git
+cd Library-Management-System-GUI-
 ```
 
 **Compile the Project**
@@ -258,11 +258,11 @@ This project is created for educational and learning purposes.
 
 ## Author
 
-**[Your Name]**
+**[Divya Jyoti Dev]**
 
 Computer Science and Engineering Student
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/Divya-Jyoti-Dev
 
 ---
 
