@@ -220,14 +220,17 @@ Some planned enhancements include:
 
 ![Login Screen](https://github.com/Divya-Jyoti-Dev/Library-Management-System-GUI-/blob/d4dabac7d4612be4e25ca4dd80995fa0bed745b7/Screenshot%202026-06-05%20120417.png)
 
-**Book Catalog**
-Add screenshot here.
+**[Book Catalog Admin]**
 
-**My Account Panel**
-Add screenshot here.
+![Catalog View](https://github.com/Divya-Jyoti-Dev/Library-Management-System-GUI-/blob/9213559eee4deef82146aef6fa1f389193fd16bc/Screenshot%202026-06-05%20120759.png)
 
-**Admin Dashboard**
-Add screenshot here.
+**[Book Catalog Member]**
+
+![Catalog View](https://github.com/Divya-Jyoti-Dev/Library-Management-System-GUI-/blob/9213559eee4deef82146aef6fa1f389193fd16bc/Screenshot%202026-06-05%20121008.png)
+
+**[My Account Panel]**
+
+![Account Panel](https://github.com/Divya-Jyoti-Dev/Library-Management-System-GUI-/blob/9213559eee4deef82146aef6fa1f389193fd16bc/Screenshot%202026-06-05%20121041.png)
 
 ---
 
